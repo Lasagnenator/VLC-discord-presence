@@ -1,2 +1,2 @@
-45
-245
+Position in file
+Length of file
