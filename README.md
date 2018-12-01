@@ -6,11 +6,13 @@ See https://obsproject.com/forum/resources/vlc-nowplaying.244/ readme.txt for se
 Create a bot in discord:
 1. Goto https://discordapp.com/developers/
 2. Click “Create an Application.”
-3. Setup the application how you want, give it the name you want, and give it a good image.
-4. Right under the name of your application, locate your Client ID. You will need this later.
-5. Lastly, save your application.
+3. Setup the application how you want, give it the name VLC (), and set the image to VLC's icon (you can find one anywhere).
+4. Add an image asset that is the same as the icon
+5. Right under the name of your application, locate your Client ID. You will need this later.
+6. Lastly, save your application.
 
-Goto `Discord vlc presence.py` and change clientID to the bot's clientID
+Goto `Discord vlc presence.py` and change ClientID (near the bottom) to the bot's clientID
+Goto `Discord vlc presence.py` and at line 44 change ImageName to the name of the uploaded image
 
 # Usage
 Run `Discord vlc presence.py`
