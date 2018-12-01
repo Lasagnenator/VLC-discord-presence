@@ -17,7 +17,10 @@ Goto `Discord vlc presence.py` and at line 44 change ImageName to the name of th
 
 # Usage
 Run `Discord vlc presence.py`
+
 Run VLC and play music or whatever
+
+And of course, have discord open!
 
 # Requirements
 pypresence 3.3.0+
