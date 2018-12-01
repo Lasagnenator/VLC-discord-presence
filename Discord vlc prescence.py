@@ -51,7 +51,7 @@ def update():
                     start = start,
                     end = end)
 
-Presence = pypresence.Presence(client_id = "518331179422973962")
+Presence = pypresence.Presence(client_id = CientID)
 
 Presence.connect()
 update()
