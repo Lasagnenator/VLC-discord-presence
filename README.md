@@ -12,6 +12,7 @@ Create a bot in discord:
 6. Lastly, save your application.
 
 Goto `Discord vlc presence.py` and change ClientID (near the bottom) to the bot's clientID
+
 Goto `Discord vlc presence.py` and at line 44 change ImageName to the name of the uploaded image
 
 # Usage
