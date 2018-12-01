@@ -23,8 +23,11 @@ Run VLC and play music or whatever
 And of course, have discord open!
 
 # Requirements
-pypresence 3.3.0+
-requests 2.19.1+
+python 3.7+ https://www.python.org/downloads/ While installing, remember to tick Add python to PATH (on the first window of installation)
+
+pypresence 3.3.0+ commandline (or terminal) `pip install pypresence`
+
+requests 2.19.1+ commandline `pip install requests`
 
 # Acknowledgements
 NowPlaying.py was not created by me (however, I have edited it slightly). https://obsproject.com/forum/resources/vlc-nowplaying.244/
