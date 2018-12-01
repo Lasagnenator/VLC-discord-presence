@@ -8,8 +8,6 @@
 # date            :20160708
 # version         :1.5.0
 # usage           :python NowPlaying.py
-# notes           :For this script to work you need to follow the instructions
-#                   in the included README.txt file
 # python_version  :2.7.10 & 3.4.3
 #===============================================================================
 
@@ -95,7 +93,7 @@ def getInfo():
         if(songTitle != 'UNKNOWN' and
            songArtist != 'UNKNOWN'):
             # Both songTitle and song Artist have been set so use both
-            writeSongInfoToFile(songTitle, separator)
+            writeSongInfoToFile(songArtist+" - "+songTitle, separator)
         elif( songTitle != 'UNKNOWN' ):
             # Just use the songTitle
             writeSongInfoToFile(songTitle, separator)
