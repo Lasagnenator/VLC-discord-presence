@@ -41,7 +41,7 @@ def update():
     artist, title = old_song.split(' - ')
     details = title
     state = "by "+artist
-    large_image = "904px-vlc_icon"
+    large_image = ImageName
     #Activity.started_at(pos)
     #Activity.end_in(length-pos)
     #print(details, start, large_image)
