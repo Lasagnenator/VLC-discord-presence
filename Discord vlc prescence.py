@@ -38,6 +38,7 @@ def update():
     print(pos, length)
     start = getTimestamp()-pos
     end =getTimestamp()+(length-pos)
+    paused = getPaused()
     artist, title = old_song.split(' - ')
     details = title
     state = "by "+artist
@@ -45,6 +46,14 @@ def update():
     #Activity.started_at(pos)
     #Activity.end_in(length-pos)
     #print(details, start, large_image)
+    if paused=="paused":
+        Presence.update(details = details,
+                        state = state,
+                        large_image = large_image,
+                        small_image = paused,
+                        small_text = paused.title(),
+                        )
+        return
     Presence.update(details = details,
                     state = state,
                     large_image = large_image,
