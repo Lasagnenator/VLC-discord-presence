@@ -6,7 +6,7 @@ See https://obsproject.com/forum/resources/vlc-nowplaying.244/ readme.txt for se
 Create a bot in discord:
 1. Goto https://discordapp.com/developers/
 2. Click “Create an Application.”
-3. Setup the application how you want, give it the name VLC (), and set the image to VLC's icon (you can find one anywhere).
+3. Setup the application how you want, give it the name VLC, and set the image to VLC's icon (you can find one anywhere).
 4. Add an image asset that is the same as the icon
 5. Add a pause icon with the name paused
 6. Add a playing icon with the name playing
