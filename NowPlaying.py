@@ -59,6 +59,13 @@ def getInfo():
     timeFile = open("./TimeFile.txt", "w")
     timeFile.write(pos+"\n"+length)
     timeFile.close()
+    paused = root.find("state").text=="paused"
+    pauseFile = open("./PauseFile.txt", "w")
+    if paused:
+        pauseFile.write("1")
+    else:
+        pauseFile.write("0")
+    pauseFile.close()
     
     # Loop through all info nodes to find relevant metadata
     for info in root.iter('info'):
