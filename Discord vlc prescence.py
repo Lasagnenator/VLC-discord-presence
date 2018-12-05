@@ -21,6 +21,13 @@ def getTimes():
     pos, length = timeFile.read().split("\n")
     return int(pos), int(length)
 
+def getPaused():
+    pauseFile = open("PauseFile.txt", "r")
+    if pauseFile.read()=="1":
+        return "paused"
+    else:
+        return "playing"
+
 def songChanged():
     global old_song
     getInfo()
